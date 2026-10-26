@@ -1,0 +1,5 @@
+	G0_6h_log2_cpm_plus_1_ratio	G0_9h_log2_cpm_plus_1_ratio	G1_6h_log2_cpm_plus_1_ratio	G1_9h_log2_cpm_plus_1_ratio
+G0_6h_log2_cpm_plus_1_ratio	1.0000	0.8945	0.8814	0.8962
+G0_9h_log2_cpm_plus_1_ratio	0.8945	1.0000	0.8142	0.9171
+G1_6h_log2_cpm_plus_1_ratio	0.8814	0.8142	1.0000	0.8507
+G1_9h_log2_cpm_plus_1_ratio	0.8962	0.9171	0.8507	1.0000

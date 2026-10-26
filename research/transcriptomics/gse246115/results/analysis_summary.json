@@ -1,0 +1,10 @@
+{
+  "accession": "GSE246115",
+  "matrix_sha256": "80c558a843104e98dd57753a1b9753bfde551616224d0433ef71b2e614a8f6bf",
+  "feature_rows": 5720,
+  "cell_columns": 78262,
+  "groups": 10,
+  "single_gsm_per_condition": true,
+  "common_expressed_features_for_rank_comparison": 3069,
+  "analysis": "Single-library pseudobulk CPM and gene-wise descriptive log2(CPM+1) ratios, separately by glucosamine stratum and time. No DE p-values or causal PfMYST interaction inference."
+}

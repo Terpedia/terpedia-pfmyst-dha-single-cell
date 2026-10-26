@@ -1,0 +1,11 @@
+group	gsm	genotype	glucosamine	dha	hours_post_invasion	cells	source_url
+Myst_G0_DHA0_0h	GSM7855693	Pfmyst-ty1-glmS	0	0	0	4535	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7855693
+Myst_G0_DHA0_6h	GSM7855694	Pfmyst-ty1-glmS	0	0	6	6896	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7855694
+Myst_G0_DHA0_9h	GSM7855695	Pfmyst-ty1-glmS	0	0	9	8299	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7855695
+Myst_G0_DHA1_6h	GSM7855696	Pfmyst-ty1-glmS	0	1	6	11264	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7855696
+Myst_G0_DHA1_9h	GSM7855697	Pfmyst-ty1-glmS	0	1	9	9230	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7855697
+Myst_G1_DHA0_0h	GSM7855698	Pfmyst-ty1-glmS	1	0	0	4109	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7855698
+Myst_G1_DHA0_6h	GSM7855699	Pfmyst-ty1-glmS	1	0	6	5325	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7855699
+Myst_G1_DHA0_9h	GSM7855700	Pfmyst-ty1-glmS	1	0	9	5966	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7855700
+Myst_G1_DHA1_6h	GSM7855701	Pfmyst-ty1-glmS	1	1	6	9922	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7855701
+Myst_G1_DHA1_9h	GSM7855702	Pfmyst-ty1-glmS	1	1	9	12716	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7855702

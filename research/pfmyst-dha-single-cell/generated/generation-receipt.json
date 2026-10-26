@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "generator": "terputer-report-generator-v2",
+  "specification_schema_version": 2,
+  "manifest": "research/transcriptomics/gse246115/report-spec.json",
+  "manifest_sha256": "0d7d363295236eac6e708a990a8059cd008d82949278dc4066c4207f23578326",
+  "notebook": "notebooks/terputer-pfmyst-dha-single-cell.ipynb",
+  "notebook_sha256": "6eb4cda501562d829dbfb146588267fbf1c58ea611c1f32e9d279f3ea4e09229",
+  "executed_code_cells": 2,
+  "notebook_execution_receipt": "research/execution-receipts/terputer-pfmyst-dha-single-cell.json",
+  "notebook_execution_receipt_sha256": "4153f4f94be5682cc85ff5633ffa688a0bd516eb7528633274b733ed00264b75",
+  "artifact_sha256": {
+    "research/transcriptomics/gse246115/results/analysis_summary.json": "0c6ef55a29bcce55a48b61b65ed452686a65648a3714edc097ddbef85dfddd28",
+    "research/transcriptomics/gse246115/results/contrast_summary.tsv": "8e303175f8ce326b61ab67b0dc0bbc7956c845199d6f3445622abb98ec0f7360",
+    "research/transcriptomics/gse246115/results/response_rank_correlations.tsv": "73e6da401bc8eae69faeb548735e68000ae0896e78908e6e5daaa05422e2ce0e",
+    "research/transcriptomics/gse246115/results/sample_qc.tsv": "b799003e80343d466f9e164cd75825a6bae2605e7755f43ef7e69085d338a381"
+  },
+  "claim_count": 6,
+  "observed_claim_count": 3,
+  "report_sha256": "500808a26160af710984fec5e6f1f8943bbf9511cd3d46fefd22a94c70964bec",
+  "ledger_sha256": "b1baa6a27f1b474d72bac26f8864c67b8ac5372173f7a8ce309525220c4c70af",
+  "limits": "Checks source URL syntax, local artifact presence, notebook execution metadata, and provenance; version 2 specifications also bind a recorded run to the notebook and observed-claim artifact hashes. Does not verify live URL reachability, biological replication, or claim truth."
+}

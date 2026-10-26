@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "runner": "terputer-notebook-runner-v1",
+  "notebook": "notebooks/terputer-pfmyst-dha-single-cell.ipynb",
+  "source_notebook_sha256": "d7245c001c4aec0b8fa005f62dbb47c066710b2963016046fc2ba4f915378758",
+  "notebook_sha256": "6eb4cda501562d829dbfb146588267fbf1c58ea611c1f32e9d279f3ea4e09229",
+  "executed_code_cells": 2,
+  "artifacts_written": {
+    "research/transcriptomics/gse246115/results/sample_qc.tsv": "b799003e80343d466f9e164cd75825a6bae2605e7755f43ef7e69085d338a381",
+    "research/transcriptomics/gse246115/results/contrast_summary.tsv": "8e303175f8ce326b61ab67b0dc0bbc7956c845199d6f3445622abb98ec0f7360",
+    "research/transcriptomics/gse246115/results/gene_descriptive.tsv": "8e919677d54a93883c8d23475f5cd7c4bcb90144b5348568c882daeae9dd3f73",
+    "research/transcriptomics/gse246115/results/response_rank_correlations.tsv": "73e6da401bc8eae69faeb548735e68000ae0896e78908e6e5daaa05422e2ce0e",
+    "research/transcriptomics/gse246115/results/analysis_summary.json": "0c6ef55a29bcce55a48b61b65ed452686a65648a3714edc097ddbef85dfddd28"
+  },
+  "python_version": "3.11.13",
+  "completed_at_utc": "2026-10-26T15:59:23.346958+00:00"
+}

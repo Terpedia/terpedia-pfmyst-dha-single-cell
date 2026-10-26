@@ -1,0 +1,119 @@
+{
+  "schema_version": 2,
+  "slug": "pfmyst-dha-single-cell",
+  "title": "Dihydroartemisinin responses in a PfMYST perturbation context: a single-cell descriptive brief",
+  "question": "Which DHA-associated transcript patterns agree across time and glucosamine strata, and what evidence would establish PfMYST dependence?",
+  "notebook": "notebooks/terputer-pfmyst-dha-single-cell.ipynb",
+  "execution_receipt": "research/execution-receipts/terputer-pfmyst-dha-single-cell.json",
+  "sources": [
+    {
+      "id": "geo",
+      "title": "GEO GSE246115",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE246115"
+    },
+    {
+      "id": "paper",
+      "title": "Primary PfMYST study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12394585/"
+    }
+  ],
+  "claims": [
+    {
+      "id": "M01",
+      "class": "source-reported",
+      "text": "GSE246115 includes Pfmyst-ty1-glmS parasite samples with and without glucosamine and with matched DHA-treated and untreated groups at 6 and 9 hours.",
+      "sources": [
+        "geo",
+        "paper"
+      ],
+      "limitation": "G0 and G1 are glucosamine strata in one genetic background; this dataset alone does not isolate a PfMYST-specific interaction."
+    },
+    {
+      "id": "M02",
+      "class": "observed",
+      "text": "The checksum-pinned PfMYST subset contains 5,720 gene rows and 78,262 single-cell columns across ten GEO sample groups.",
+      "sources": [
+        "geo"
+      ],
+      "artifacts": [
+        "research/transcriptomics/gse246115/results/analysis_summary.json",
+        "research/transcriptomics/gse246115/results/sample_qc.tsv"
+      ],
+      "limitation": "Each group corresponds to one GEO sample/library, not thousands of independent biological replicates."
+    },
+    {
+      "id": "M03",
+      "class": "observed",
+      "text": "The four time-matched DHA/control pseudobulk comparisons have median descriptive log2(CPM+1) ratios from -0.016 to -0.229 among genes with control CPM at least one.",
+      "sources": [
+        "geo"
+      ],
+      "artifacts": [
+        "research/transcriptomics/gse246115/results/contrast_summary.tsv"
+      ],
+      "limitation": "One library per condition prevents replicate-aware differential-expression inference."
+    },
+    {
+      "id": "M04",
+      "class": "observed",
+      "text": "Across 3,069 genes meeting the expression filter in all four controls, the four DHA-response rank lists have pairwise Spearman correlations from 0.814 to 0.917.",
+      "sources": [
+        "geo"
+      ],
+      "artifacts": [
+        "research/transcriptomics/gse246115/results/analysis_summary.json",
+        "research/transcriptomics/gse246115/results/response_rank_correlations.tsv"
+      ],
+      "limitation": "The comparisons share a study, processing pipeline, and parasite background; rank agreement is not independent reproduction or proof of pathway specificity."
+    },
+    {
+      "id": "M05",
+      "class": "source-reported",
+      "text": "The primary study reports PfMYST knockdown, DHA survival, and multi-omics findings beyond the single-cell count matrix analyzed here.",
+      "sources": [
+        "paper"
+      ],
+      "limitation": "Those functional findings were not independently reproduced by this notebook."
+    },
+    {
+      "id": "M06",
+      "class": "proposed",
+      "text": "Use independent parasite cultures at each glucosamine-by-DHA-by-time condition, verify PfMYST knockdown and stage balance, and fit a replicate-aware interaction model before attributing treatment-response differences to PfMYST.",
+      "sources": [
+        "geo",
+        "paper"
+      ],
+      "limitation": "This follow-up experiment has not been performed."
+    }
+  ],
+  "abstract": [
+    "M01",
+    "M02",
+    "M04"
+  ],
+  "sections": {
+    "background": [
+      "M01",
+      "M05"
+    ],
+    "methods": [
+      "M02"
+    ],
+    "results": [
+      "M03",
+      "M04"
+    ],
+    "interpretation": [
+      "M04",
+      "M05"
+    ],
+    "limitations": [
+      "M02",
+      "M03",
+      "M04"
+    ],
+    "next_steps": [
+      "M06"
+    ]
+  }
+}
